@@ -16,6 +16,6 @@ for($i=0; $i<3; $i++){
         $maiornota=$alunos[$i]['nota'];
         $alunomax=$alunos[$i]['nome'];     }
 }
-echo "a média dos alunos é: ". $total/2 . " pontos \n";
+echo "a média dos alunos é: ". $total/count($alunos) . " pontos \n";
 echo "o nome do aluno com maior nota é: $alunomax \n";
 ?>
