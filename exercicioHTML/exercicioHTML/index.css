@@ -1,0 +1,34 @@
+.center {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+
+}
+
+body {
+    color: azure;
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: steelblue;
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+footer a{
+    margin: 20px;
+}
